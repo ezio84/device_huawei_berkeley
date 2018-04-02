@@ -20,4 +20,4 @@ type thirdmodem_block_device, dev_type;
 type thirdmodemnvm_block_device, dev_type;
 type thirdmodemnvmbkp_block_device, dev_type;
 type pmom_cat, dev_type, data_file_type, file_type;
-
+type bfm_device, dev_type;

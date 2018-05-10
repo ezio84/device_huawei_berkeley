@@ -225,4 +225,5 @@
         <item>/sys/class/power_supply/Battery/scp_status</item>
     </string-array>
 
+    <bool name="config_showNavigationBar">true</bool>
 </resources>

@@ -2,4 +2,5 @@
 allow vold proc_bluetooth_writable:dir read;
 allow vold splash2_data_file:dir read;
 allow vold sysfs_zram:file write;
+allow vold system_data_file:file unlink;
 

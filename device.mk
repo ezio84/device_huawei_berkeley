@@ -20,10 +20,6 @@ $(call inherit-product-if-exists, vendor/huawei/berkeley/berkeley-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
-
 # APN
 ifeq ($(TARGET_PRODUCT),aosp_berkeley)
 PRODUCT_COPY_FILES += \

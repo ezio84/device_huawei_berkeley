@@ -34,4 +34,6 @@
     <string name="config_overridenVendorProductModel" translatable="false">Honor View 10</string>
 
     <bool name="config_isCrappyLedDevice">true</bool>
+
+    <bool name="config_hasBottomFingerprintSensor">true</bool>
 </resources>

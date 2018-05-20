@@ -46,9 +46,6 @@ BOARD_HAVE_BLUETOOTH := true
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := exfat
 
-# Extended Filesystem Support
-TARGET_EXFAT_DRIVER := exfat
-
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3707764736
 
@@ -65,3 +62,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 #include vendor/nexus/sepolicy/sepolicy.mk
+
+DEVICE_MANIFEST_FILE := device/huawei/berkeley/manifest.xml
+DEVICE_MATRIX_FILE := device/huawei/berkeley/compatibility_matrix.xml

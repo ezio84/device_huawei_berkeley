@@ -98,4 +98,4 @@ PRODUCT_PACKAGES += \
     vndk-sp
 
 PRODUCT_PACKAGES += \
-    OneplusThreeDoze
+    CustomDoze

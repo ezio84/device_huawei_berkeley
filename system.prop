@@ -8,3 +8,6 @@ persist.sys.usb.config=mtp,adb
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=60
 
+# Ril
+ro.telephony.needsMuteByRil=true
+
